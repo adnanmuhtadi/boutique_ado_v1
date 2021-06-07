@@ -184,3 +184,5 @@ if 'STRIPE_WH_SECRET' in os.environ:
     STRIPE_WH_SECRET = os.getenv("STRIPE_WH_SECRET", '')
 else:
     STRIPE_WH_SECRET = env("STRIPE_WH_SECRET")
+    
+DEFAULT_FROM_EMAIL = 'boutiqueado@example.com'
